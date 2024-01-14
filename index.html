@@ -30,7 +30,7 @@
                                         <div class="menu-wrapper">
                                             <div class="ts-menu">
                                                 <ul>
-                                                    <li class="dropdown2">
+                                                    <li class="dropdown">
                                                         <a href="" class="dropdown">Shop</a>
                                                         <ul class="dropdown-menu2">
                                                             <li>
@@ -295,7 +295,22 @@
                         </svg>
                     </a>
                     <a href="">Sign In</a>
-                    <a href="">Cart</a>
+                    <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Cart</a>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header" style="background-color:  rgb(34, 33, 33);">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                        <a style="color: aliceblue;" data-bs-dismiss="offcanvas" aria-label="Close">Close</a>
+                    </div>
+                    <div class="offcanvas-body" style=" background-color: rgb(34, 33, 33);">
+                        <br>
+                        <h2 style="color: aliceblue; background-color: rgb(34, 33, 33);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="370" height="100" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16" style=" color: rgb(226, 222, 222);">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z"/>
+                          </svg>
+                        </h2>
+                        <button style="margin-top: 50px; width: 370px;">Continue shopping</button>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -401,8 +416,9 @@
     <div class="container" id="size">
         <div class="row">
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-classic-chair-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-classic-chair-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Modern Shell Chair</a></h4>
                 <div>
@@ -411,8 +427,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-pendant-lamp-2-825x1024.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-pendant-lamp-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Pendant Lamp</a></h4>
                 <div>
@@ -421,8 +438,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-lighthouse-lantern-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-lighthouse-lantern-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">LIghthouse Lantern</a></h4>
                 <div>
@@ -431,8 +449,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-wall-clock-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-wall-clock-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Wall Clock</a></h4>
                 <div>
@@ -443,8 +462,9 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-hans-backpack.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-hans-backpack-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Hans Backpack</a></h4>
                 <div>
@@ -453,8 +473,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-specs-sunglasses-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-specs-sunglasses-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Specs Sunglasses</a></h4>
                 <div>
@@ -463,8 +484,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-press-coffee-maker-2-940x1166.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-press-coffee-maker-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Press Coffee Maker</a></h4>
                 <div>
@@ -473,8 +495,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-door-bumper-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-door-stop-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Door Bumper</a></h4>
                 <div>
@@ -485,8 +508,9 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-laptop-bag-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-laptop-bag-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Laptop Bag</a></h4>
                 <div>
@@ -495,8 +519,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-plain-glassbottle-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-plain-glassbottle-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Plain Glass Bottle</a></h4>
                 <div>
@@ -505,8 +530,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-ceramic-tealight-holder-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-ceramic-tealight-holder-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">    
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Ceramic Tealight Holder</a></h4>
                 <div>
@@ -515,8 +541,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-canvas-basket-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-canvas-basket-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Canvas Basket</a></h4>
                 <div>
@@ -527,8 +554,9 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-amber-body-lotion-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-lily-body-lotion-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Amber Body Lotion</a></h4>
                 <div>
@@ -537,8 +565,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-havana-sunglasses-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-havana-sunglasses-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Havana Sunglasses</a></h4>
                 <div>
@@ -547,8 +576,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-henry-backpack-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-henry-backpack-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Henry Backpack</a></h4>
                 <div>
@@ -557,8 +587,9 @@
                 </div>
             </div>
             <div class="col-3">
-                <div>
+                <div class="box-hover">
                     <img src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-striped-canvas-bag-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
+                    <img class="img-change" src="https://savoy.nordicmade.com/wp-content/uploads/2015/08/product-striped-canvas-bag-2-450x558.jpg" alt=""  sizes="(max-width: 350px) 100vw, 350px" width="100%" height="434">
                 </div class="Chu">
                 <h4><a href="https://savoy.nordicmade.com/product/hans-backpack/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Striped Canvas Bag</a></h4>
                 <div>
